@@ -11,6 +11,12 @@ Paste any text and instantly get 23+ statistics, interactive charts, and exporta
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=flat&logo=vercel)](https://advanced-text-analyzer.vercel.app)
+[![API](https://img.shields.io/badge/API-Render-46E3B7?style=flat&logo=render)](https://advanced-text-analyzer.onrender.com/docs)
+
+**🌐 Live Demo:** [advanced-text-analyzer.vercel.app](https://advanced-text-analyzer.vercel.app)
+
+**⚡ API Docs:** [advanced-text-analyzer.onrender.com/docs](https://advanced-text-analyzer.onrender.com/docs)
 
 </div>
 
