@@ -1,6 +1,3 @@
-from pydantic import BaseModel
-
-
 from pydantic import BaseModel, Field
 
 
@@ -32,9 +29,23 @@ class TextResponse(BaseModel):
 
     most_frequent_character: str
     least_frequent_character: str
+    most_frequent_word: str
 
     reverse_text: str
 
     palindrome: bool
 
     reading_time: float
+    speaking_time: float
+
+    average_word_length: float
+    average_sentence_length: float
+
+    unique_words: int
+    unique_characters: int
+
+    punctuation_count: int
+    line_count: int
+
+    character_frequency: dict
+    word_frequency: dict
