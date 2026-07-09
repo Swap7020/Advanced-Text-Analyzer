@@ -2,8 +2,11 @@ services:
   - type: web
     name: advanced-text-analyzer-api
     runtime: python
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: bash start.sh
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.13.0
+        value: 3.11.0
+      - key: ALLOWED_ORIGINS
+        value: "*"
